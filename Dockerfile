@@ -1,6 +1,6 @@
-FROM python:3.6.1
+FROM python:3.6-alpine
 
-RUN useradd --system --user-group linter
+RUN addgroup -S linter && adduser -S -G linter linter
 
 COPY requirements.txt /
 RUN pip install -r /requirements.txt
