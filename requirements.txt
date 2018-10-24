@@ -7,7 +7,7 @@
 flake8-blind-except==0.1.1
 flake8-debugger==3.1.0
 flake8-imports==0.1.1
-flake8==3.5.0
+flake8==3.6.0
 isort==4.3.4
 mccabe==0.6.1
 pycodestyle==2.3.1        # via flake8, flake8-debugger
