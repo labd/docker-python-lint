@@ -1,7 +1,7 @@
 FROM python:3.6-alpine as builder
 
 RUN addgroup -S linter && adduser -S -G linter linter
-RUN apk add --no-cache git # temp
+RUN apk add --no-cache git gcc musl-dev # temp
 
 COPY requirements.txt /
 RUN pip wheel -r /requirements.txt --wheel-dir=/wheelhouse/

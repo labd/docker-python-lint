@@ -5,4 +5,7 @@ flake8-black==0.0.1
 flake8-blind-except==0.1.1
 flake8-debugger==3.1.0
 flake8-imports==0.1.1
+flake8-mypy==17.8.0
 mccabe==0.6.1
+
+-e git+https://github.com/labd/flake8-codeclimate.git@feature/gitlab-codequality#egg=flake8-codeclimate
