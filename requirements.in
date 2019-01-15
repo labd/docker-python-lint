@@ -1,6 +1,8 @@
-isort
-flake8
-flake8-blind-except
-flake8-debugger
-flake8-imports
-mccabe
+black==18.9b0
+isort==4.3.4
+flake8==3.6.0
+flake8-black==0.0.1
+flake8-blind-except==0.1.1
+flake8-debugger==3.1.0
+flake8-imports==0.1.1
+mccabe==0.6.1
