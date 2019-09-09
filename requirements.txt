@@ -4,11 +4,15 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
+entrypoints==0.3          # via flake8
 flake8-blind-except==0.1.1
 flake8-debugger==3.1.0
 flake8-imports==0.1.1
-flake8==3.5.0
-isort==4.3.4
+flake8==3.7.8
+isort==4.3.21
 mccabe==0.6.1
-pycodestyle==2.3.1        # via flake8, flake8-debugger
-pyflakes==1.6.0           # via flake8
+pycodestyle==2.5.0        # via flake8, flake8-debugger
+pyflakes==2.1.1           # via flake8
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools==41.2.0        # via flake8-blind-except
